@@ -1,0 +1,17 @@
+{
+  "name": "comiv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.3.1",
+    "browserify": "^16.2.3"
+  },
+  "scripts": {
+    "run": "tsc && node src/index.js",
+    "build": "tsc && browserify ./src/index.js -o ./bundle.js -d"
+  },
+  "author": "",
+  "license": "ISC"
+}
